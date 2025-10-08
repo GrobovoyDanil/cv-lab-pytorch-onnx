@@ -1,0 +1,40 @@
+# Виртуальное окружение
+venv/
+.env/
+env/
+
+# Папки с кэшем Python
+__pycache__/
+*.pyc
+
+# Jupyter Notebook checkpoints
+*.ipynb_checkpoints/
+
+# Датасеты (тяжёлые данные не коммитим)
+data/
+
+# Модели и их веса
+*.onnx
+*.pth
+*.tar
+checkpoint.tar
+
+# Временные файлы и логи
+*.log
+*.csv
+*.txt
+
+# Служебные файлы IDE и редакторов
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Документы и отчёты (если они генерируются автоматически)
+docs/*.md
+docs/*.png
+docs/*.pdf
+
+# Дополнительные временные файлы
+*.bak
+*.tmp
